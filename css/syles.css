@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logo-wrapper{
+    background-color: #ccc;
+    background-image: url('../img/background-header.jpg');
+    background-size: cover;
+    padding: 15px;
+    background-attachment: fixed;
+}
+.logo{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.encabezado{
+    background-color: #C4C4C4;
+    padding: 10px 0 30px 0;
+}
+.sub-encabezado{
+    background-color: #e5e5e5;
+    padding: 5px;
+}
+
+.nav-bar{
+    text-align: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #969797;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.nav-bar a:hover{
+    color:#005677;
+}
+
+h1,h2{
+    
+    color: #005677;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.footer{
+    background-color: #005677;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+dd{
+    padding-left: 40px;
+}
+
+.footer i{
+    margin-left: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-me{
+    background-color: #6200EE;
+    padding: 50px 0 50px 0;
+}
+.about-me h1{
+    color: #fff;
+}
+.button-return{
+    text-decoration: none;
+    background-color: #3700B3;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+}
